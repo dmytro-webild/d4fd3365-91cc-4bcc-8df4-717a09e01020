@@ -223,7 +223,7 @@ export default function LandingPage() {
               title: "Request a Quote",              description: "Tell us about your yard. Share your vision, challenges, and goals. We listen and understand your unique needs.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-building-exterior-design_23-2151917336.jpg?id=408580761",              imageAlt: "Free quote consultation"
             },
             {
-              title: "Get a Custom Plan",              description: "We walk you through everything. No hidden costs, no surprises—just honest, transparent pricing and clear expectations.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=6",              imageAlt: "Professional landscaping plan"
+              title: "Get a Custom Plan",              description: "We walk you through everything. No hidden costs, no surprises—just honest, transparent pricing and clear expectations.",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-hand-trowel-green-grass_181624-26501.jpg?id=11942615",              imageAlt: "Professional landscaping plan"
             },
             {
               title: "We Get to Work",              description: "Fast, clean, professional execution. We handle every detail while respecting your property and timeline.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=4",              imageAlt: "Professional landscaping execution"
