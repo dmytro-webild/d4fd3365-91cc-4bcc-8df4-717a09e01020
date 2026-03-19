@@ -172,28 +172,22 @@ export default function LandingPage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "shawn-moon",              name: "Shawn Moon",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",              imageAlt: "Shawn Moon"
+              id: "shawn-moon",              name: "Shawn Moon",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5
             },
             {
-              id: "cory-randle",              name: "Cory Randle",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-farmer-standing-with-arms-crossed-apple-orchard_107420-12205.jpg",              imageAlt: "Cory Randle"
+              id: "cory-randle",              name: "Cory Randle",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5
             },
             {
-              id: "frank-molinari",              name: "Frank Molinari",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-enjoying-morning_23-2148586194.jpg",              imageAlt: "Frank Molinari"
+              id: "frank-molinari",              name: "Frank Molinari",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5
             },
             {
-              id: "zapporah",              name: "Zapporah",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-practicing-outdoor-sports_23-2148297545.jpg",              imageAlt: "Zapporah"
+              id: "zapporah",              name: "Zapporah",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5
             },
             {
-              id: "anahuac-enciso",              name: "Anahuac Enciso",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/young-couple-celebrating-engagement_23-2149401309.jpg",              imageAlt: "Anahuac Enciso"
+              id: "anahuac-enciso",              name: "Anahuac Enciso",              role: "Homeowner",              company: "Satisfied Customer",              rating: 5
             },
             {
-              id: "five-star",              name: "Juan Garcia",              role: "Landscaping Expert",              company: "Land Care 4 U",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176587.jpg",              imageAlt: "Team member"
+              id: "five-star",              name: "Juan Garcia",              role: "Landscaping Expert",              company: "Land Care 4 U",              rating: 5
             }
           ]}
           ariaLabel="Testimonials section"
