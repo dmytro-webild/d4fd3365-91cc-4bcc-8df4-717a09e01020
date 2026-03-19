@@ -47,8 +47,8 @@ export default function LandingPage() {
             { text: "View Our Work", href: "#showcase" }
           ]}
           slides={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-shot-desert-chile-separated-by-fence-with-buildings-background_181624-9783.jpg", imageAlt: "Yard transformation from overgrown to lush green landscape" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/selective-focus-vertical-shot-cylindrical-cement-blocks-park_181624-24752.jpg?_wi=1", imageAlt: "Professional landscaping transformation before and after" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-modern-house-cement-view-from-garden_1127-3209.jpg?id=1242915", imageAlt: "Yard transformation from overgrown to lush green landscape" },
+            { imageSrc: "http://img.b2bpic.net/premium-photo/suburban-home-with-lush-green-lawn_332679-26291.jpg?id=403791437", imageAlt: "Professional landscaping transformation before and after" },
             { imageSrc: "http://img.b2bpic.net/free-photo/overhead-view-male-gardener-digging-soil-with-hoe_23-2148165200.jpg?_wi=1", imageAlt: "Desert yard transformed to beautiful lush garden" }
           ]}
           autoplayDelay={4000}
@@ -149,7 +149,7 @@ export default function LandingPage() {
               id: "transform-2",              value: "Wasteland → Paradise",              title: "Backyard Makeover",              description: "Diseased soil and weeds replaced with healthy turf and professional irrigation.",              imageSrc: "http://img.b2bpic.net/free-photo/overhead-view-male-gardener-digging-soil-with-hoe_23-2148165200.jpg?_wi=2",              imageAlt: "Landscaping transformation project"
             },
             {
-              id: "transform-3",              value: "1000% Better",              title: "Stunning Results",              description: "Every transformation represents our commitment to exceeding expectations.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=5",              imageAlt: "Professional garden design"
+              id: "transform-3",              value: "1000% Better",              title: "Stunning Results",              description: "Every transformation represents our commitment to exceeding expectations.",              imageSrc: "http://img.b2bpic.net/premium-photo/luxury-home-facade-sunset-with-lush-lawn_661495-46990.jpg?id=218986032",              imageAlt: "Professional garden design"
             },
             {
               id: "transform-4",              value: "Love It Again",              title: "Outdoor Living",              description: "Transform your space into an outdoor oasis you'll actually use and enjoy.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=3",              imageAlt: "Hardscape and landscape design"
