@@ -78,7 +78,7 @@ export default function LandingPage() {
               title: "Above & Beyond Care",              description: "We don't just finish the job—we make sure it lasts. Your satisfaction is our priority.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=1",              imageAlt: "Professional hardscape and patio installation"
             },
             {
-              title: "Affordable, Fair Pricing",              description: "Premium results without overpriced quotes. We believe great landscaping should be accessible.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=2",              imageAlt: "Professional landscaping service"
+              title: "Affordable, Fair Pricing",              description: "Premium results without overpriced quotes. We believe great landscaping should be accessible.",              imageSrc: "http://img.b2bpic.net/premium-photo/price-symbol-price-concept-price-wording-increasing-wooden-block-coins-stacking_184421-3960.jpg?id=388981837",              imageAlt: "Professional landscaping service"
             },
             {
               title: "Versatile Services",              description: "From lawn care to gutters, roses, and hardscaping. Your trusted partner for all outdoor needs.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=2",              imageAlt: "Comprehensive landscaping services"
@@ -116,13 +116,13 @@ export default function LandingPage() {
               id: "landscaping",              name: "Landscaping & Design",              price: "Project-Based",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=2",              imageAlt: "Professional hardscape and garden design"
             },
             {
-              id: "specialty",              name: "Specialty Services",              price: "On Request",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=3",              imageAlt: "Specialty landscaping services"
+              id: "specialty",              name: "Specialty Services",              price: "On Request",              imageSrc: "http://img.b2bpic.net/free-photo/worker-is-cutting-grass-with-hose_7502-9835.jpg?id=66860580",              imageAlt: "Specialty landscaping services"
             },
             {
-              id: "maintenance",              name: "Ongoing Maintenance",              price: "Seasonal Plans",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=4",              imageAlt: "Ongoing yard maintenance service"
+              id: "maintenance",              name: "Ongoing Maintenance",              price: "Seasonal Plans",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants_1150-26606.jpg?id=10401277",              imageAlt: "Ongoing yard maintenance service"
             },
             {
-              id: "consultation",              name: "Consultation & Planning",              price: "Free Assessment",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=4",              imageAlt: "Free landscaping consultation and planning"
+              id: "consultation",              name: "Consultation & Planning",              price: "Free Assessment",              imageSrc: "http://img.b2bpic.net/free-photo/quality-control-inspector-worker-talking-while-going-through-list-plants-greenhouse_637285-1670.jpg?id=25624237",              imageAlt: "Free landscaping consultation and planning"
             }
           ]}
           buttons={[{ text: "Request Your Custom Plan", href: "#contact" }]}
