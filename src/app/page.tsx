@@ -48,8 +48,8 @@ export default function LandingPage() {
           ]}
           slides={[
             { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-shot-desert-chile-separated-by-fence-with-buildings-background_181624-9783.jpg", imageAlt: "Yard transformation from overgrown to lush green landscape" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/selective-focus-vertical-shot-cylindrical-cement-blocks-park_181624-24752.jpg", imageAlt: "Professional landscaping transformation before and after" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/overhead-view-male-gardener-digging-soil-with-hoe_23-2148165200.jpg", imageAlt: "Desert yard transformed to beautiful lush garden" }
+            { imageSrc: "http://img.b2bpic.net/free-photo/selective-focus-vertical-shot-cylindrical-cement-blocks-park_181624-24752.jpg?_wi=1", imageAlt: "Professional landscaping transformation before and after" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/overhead-view-male-gardener-digging-soil-with-hoe_23-2148165200.jpg?_wi=1", imageAlt: "Desert yard transformed to beautiful lush garden" }
           ]}
           autoplayDelay={4000}
           showDimOverlay={false}
@@ -66,22 +66,22 @@ export default function LandingPage() {
           description="We transform outdoor spaces with expertise, honesty, and genuine care. Every project reflects our commitment to excellence and customer satisfaction."
           features={[
             {
-              title: "Complete Transformations",              description: "From dirt and weeds to lush, healthy lawns. We handle projects of any size with professionalism and attention to detail.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg",              imageAlt: "Beautiful professional garden landscape design"
+              title: "Complete Transformations",              description: "From dirt and weeds to lush, healthy lawns. We handle projects of any size with professionalism and attention to detail.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=1",              imageAlt: "Beautiful professional garden landscape design"
             },
             {
-              title: "Fast & Reliable Service",              description: "Next-day or same-week availability. We respect your time and deliver results when we promise them.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg",              imageAlt: "Professional landscaper maintaining green lawn"
+              title: "Fast & Reliable Service",              description: "Next-day or same-week availability. We respect your time and deliver results when we promise them.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=1",              imageAlt: "Professional landscaper maintaining green lawn"
             },
             {
-              title: "Honest & Transparent",              description: "We walk you through everything before we start. No surprises, no hidden costs—just straightforward, quality work.",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg",              imageAlt: "Professional irrigation system installation"
+              title: "Honest & Transparent",              description: "We walk you through everything before we start. No surprises, no hidden costs—just straightforward, quality work.",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg?_wi=1",              imageAlt: "Professional irrigation system installation"
             },
             {
-              title: "Above & Beyond Care",              description: "We don't just finish the job—we make sure it lasts. Your satisfaction is our priority.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg",              imageAlt: "Professional hardscape and patio installation"
+              title: "Above & Beyond Care",              description: "We don't just finish the job—we make sure it lasts. Your satisfaction is our priority.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=1",              imageAlt: "Professional hardscape and patio installation"
             },
             {
-              title: "Affordable, Fair Pricing",              description: "Premium results without overpriced quotes. We believe great landscaping should be accessible.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg",              imageAlt: "Professional landscaping service"
+              title: "Affordable, Fair Pricing",              description: "Premium results without overpriced quotes. We believe great landscaping should be accessible.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=2",              imageAlt: "Professional landscaping service"
             },
             {
-              title: "Versatile Services",              description: "From lawn care to gutters, roses, and hardscaping. Your trusted partner for all outdoor needs.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg",              imageAlt: "Comprehensive landscaping services"
+              title: "Versatile Services",              description: "From lawn care to gutters, roses, and hardscaping. Your trusted partner for all outdoor needs.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=2",              imageAlt: "Comprehensive landscaping services"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -107,22 +107,22 @@ export default function LandingPage() {
           useInvertedBackground={false}
           products={[
             {
-              id: "lawn-care",              name: "Lawn & Yard Services",              price: "Weekly or Bi-Weekly",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg",              imageAlt: "Professional lawn maintenance service"
+              id: "lawn-care",              name: "Lawn & Yard Services",              price: "Weekly or Bi-Weekly",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=3",              imageAlt: "Professional lawn maintenance service"
             },
             {
-              id: "irrigation",              name: "Irrigation & Lawn Health",              price: "Custom Quotes",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg",              imageAlt: "Professional irrigation system installation"
+              id: "irrigation",              name: "Irrigation & Lawn Health",              price: "Custom Quotes",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg?_wi=2",              imageAlt: "Professional irrigation system installation"
             },
             {
-              id: "landscaping",              name: "Landscaping & Design",              price: "Project-Based",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg",              imageAlt: "Professional hardscape and garden design"
+              id: "landscaping",              name: "Landscaping & Design",              price: "Project-Based",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=2",              imageAlt: "Professional hardscape and garden design"
             },
             {
-              id: "specialty",              name: "Specialty Services",              price: "On Request",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg",              imageAlt: "Specialty landscaping services"
+              id: "specialty",              name: "Specialty Services",              price: "On Request",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=3",              imageAlt: "Specialty landscaping services"
             },
             {
-              id: "maintenance",              name: "Ongoing Maintenance",              price: "Seasonal Plans",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg",              imageAlt: "Ongoing yard maintenance service"
+              id: "maintenance",              name: "Ongoing Maintenance",              price: "Seasonal Plans",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=4",              imageAlt: "Ongoing yard maintenance service"
             },
             {
-              id: "consultation",              name: "Consultation & Planning",              price: "Free Assessment",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg",              imageAlt: "Free landscaping consultation and planning"
+              id: "consultation",              name: "Consultation & Planning",              price: "Free Assessment",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=4",              imageAlt: "Free landscaping consultation and planning"
             }
           ]}
           buttons={[{ text: "Request Your Custom Plan", href: "#contact" }]}
@@ -143,16 +143,16 @@ export default function LandingPage() {
           animationType="slide-up"
           metrics={[
             {
-              id: "transform-1",              value: "Desert → Lush",              title: "Complete Lawn Transformation",              description: "From dry, weed-filled yard to thriving green landscape in just weeks.",              imageSrc: "http://img.b2bpic.net/free-photo/selective-focus-vertical-shot-cylindrical-cement-blocks-park_181624-24752.jpg",              imageAlt: "Before and after yard transformation"
+              id: "transform-1",              value: "Desert → Lush",              title: "Complete Lawn Transformation",              description: "From dry, weed-filled yard to thriving green landscape in just weeks.",              imageSrc: "http://img.b2bpic.net/free-photo/selective-focus-vertical-shot-cylindrical-cement-blocks-park_181624-24752.jpg?_wi=2",              imageAlt: "Before and after yard transformation"
             },
             {
-              id: "transform-2",              value: "Wasteland → Paradise",              title: "Backyard Makeover",              description: "Diseased soil and weeds replaced with healthy turf and professional irrigation.",              imageSrc: "http://img.b2bpic.net/free-photo/overhead-view-male-gardener-digging-soil-with-hoe_23-2148165200.jpg",              imageAlt: "Landscaping transformation project"
+              id: "transform-2",              value: "Wasteland → Paradise",              title: "Backyard Makeover",              description: "Diseased soil and weeds replaced with healthy turf and professional irrigation.",              imageSrc: "http://img.b2bpic.net/free-photo/overhead-view-male-gardener-digging-soil-with-hoe_23-2148165200.jpg?_wi=2",              imageAlt: "Landscaping transformation project"
             },
             {
-              id: "transform-3",              value: "1000% Better",              title: "Stunning Results",              description: "Every transformation represents our commitment to exceeding expectations.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg",              imageAlt: "Professional garden design"
+              id: "transform-3",              value: "1000% Better",              title: "Stunning Results",              description: "Every transformation represents our commitment to exceeding expectations.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=5",              imageAlt: "Professional garden design"
             },
             {
-              id: "transform-4",              value: "Love It Again",              title: "Outdoor Living",              description: "Transform your space into an outdoor oasis you'll actually use and enjoy.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg",              imageAlt: "Hardscape and landscape design"
+              id: "transform-4",              value: "Love It Again",              title: "Outdoor Living",              description: "Transform your space into an outdoor oasis you'll actually use and enjoy.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=3",              imageAlt: "Hardscape and landscape design"
             }
           ]}
           ariaLabel="Before and after showcase section"
@@ -226,16 +226,16 @@ export default function LandingPage() {
           description="We make landscaping simple. Four easy steps from your first call to enjoying your dream yard."
           features={[
             {
-              title: "Request a Quote",              description: "Tell us about your yard. Share your vision, challenges, and goals. We listen and understand your unique needs.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg",              imageAlt: "Free quote consultation"
+              title: "Request a Quote",              description: "Tell us about your yard. Share your vision, challenges, and goals. We listen and understand your unique needs.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=5",              imageAlt: "Free quote consultation"
             },
             {
-              title: "Get a Custom Plan",              description: "We walk you through everything. No hidden costs, no surprises—just honest, transparent pricing and clear expectations.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg",              imageAlt: "Professional landscaping plan"
+              title: "Get a Custom Plan",              description: "We walk you through everything. No hidden costs, no surprises—just honest, transparent pricing and clear expectations.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=6",              imageAlt: "Professional landscaping plan"
             },
             {
-              title: "We Get to Work",              description: "Fast, clean, professional execution. We handle every detail while respecting your property and timeline.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg",              imageAlt: "Professional landscaping execution"
+              title: "We Get to Work",              description: "Fast, clean, professional execution. We handle every detail while respecting your property and timeline.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=4",              imageAlt: "Professional landscaping execution"
             },
             {
-              title: "Enjoy Your Yard",              description: "Relax and love your outdoor space again. Maintenance plans available to keep it looking perfect year-round.",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg",              imageAlt: "Beautiful maintained landscape"
+              title: "Enjoy Your Yard",              description: "Relax and love your outdoor space again. Maintenance plans available to keep it looking perfect year-round.",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg?_wi=3",              imageAlt: "Beautiful maintained landscape"
             }
           ]}
           gridVariant="four-items-2x2-equal-grid"
