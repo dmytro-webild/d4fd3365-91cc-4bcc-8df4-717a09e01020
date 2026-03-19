@@ -69,7 +69,7 @@ export default function LandingPage() {
               title: "Complete Transformations",              description: "From dirt and weeds to lush, healthy lawns. We handle projects of any size with professionalism and attention to detail.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=1",              imageAlt: "Beautiful professional garden landscape design"
             },
             {
-              title: "Fast & Reliable Service",              description: "Next-day or same-week availability. We respect your time and deliver results when we promise them.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=1",              imageAlt: "Professional landscaper maintaining green lawn"
+              title: "Fast & Reliable Service",              description: "Next-day or same-week availability. We respect your time and deliver results when we promise them.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-strong-man-gloves-cutting-leaves-his-garden-farmer-spending-summer-morning-working-garden-near-countryside-house_176420-19902.jpg?id=9696898",              imageAlt: "Professional landscaper maintaining green lawn"
             },
             {
               title: "Honest & Transparent",              description: "We walk you through everything before we start. No surprises, no hidden costs—just straightforward, quality work.",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg?_wi=1",              imageAlt: "Professional irrigation system installation"
@@ -107,7 +107,7 @@ export default function LandingPage() {
           useInvertedBackground={false}
           products={[
             {
-              id: "lawn-care",              name: "Lawn & Yard Services",              price: "Weekly or Bi-Weekly",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=3",              imageAlt: "Professional lawn maintenance service"
+              id: "lawn-care",              name: "Lawn & Yard Services",              price: "Weekly or Bi-Weekly",              imageSrc: "http://img.b2bpic.net/free-photo/male-hands-cutting-bushes-with-big-scissors_651396-1549.jpg?id=26767874",              imageAlt: "Professional lawn maintenance service"
             },
             {
               id: "irrigation",              name: "Irrigation & Lawn Health",              price: "Custom Quotes",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg?_wi=2",              imageAlt: "Professional irrigation system installation"
@@ -203,7 +203,7 @@ export default function LandingPage() {
           description="Led by Juan and his dedicated team, Land Care 4 U & Landscaping is built on hard work, honesty, and real care for every home we touch."
           subdescription="We don't just show up—we listen, explain, and deliver results that last. Every project is treated with the same pride and attention to detail, regardless of size."
           icon={Users}
-          imageSrc="http://img.b2bpic.net/free-photo/eco-friendly-healthy-lifestyle-concept-outdoors-portrait-young-attractive-bearded-caucasian-male-farmer-smiling-camera-working-his-farm-planting-vegetables_176420-19947.jpg"
+          imageSrc="http://img.b2bpic.net/premium-photo/landscaper-cut-natural-grass-turfs-size_1426-4787.jpg?id=49630866"
           imageAlt="Land Care 4 U team"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -220,7 +220,7 @@ export default function LandingPage() {
           description="We make landscaping simple. Four easy steps from your first call to enjoying your dream yard."
           features={[
             {
-              title: "Request a Quote",              description: "Tell us about your yard. Share your vision, challenges, and goals. We listen and understand your unique needs.",              imageSrc: "http://img.b2bpic.net/free-photo/man-servant-caring-garden_23-2149530843.jpg?_wi=5",              imageAlt: "Free quote consultation"
+              title: "Request a Quote",              description: "Tell us about your yard. Share your vision, challenges, and goals. We listen and understand your unique needs.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-building-exterior-design_23-2151917336.jpg?id=408580761",              imageAlt: "Free quote consultation"
             },
             {
               title: "Get a Custom Plan",              description: "We walk you through everything. No hidden costs, no surprises—just honest, transparent pricing and clear expectations.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=6",              imageAlt: "Professional landscaping plan"
