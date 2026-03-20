@@ -6,6 +6,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Inter_Tight } from "next/font/google";
+import { Mulish } from "next/font/google";
 
 
 
@@ -14,9 +15,10 @@ export const metadata: Metadata = {
   description: 'Transform your yard into a beautiful outdoor space. Reliable, affordable landscaping trusted by homeowners. Get a free quote today from local experts.',
 };
 
-const interTight = Inter_Tight({
-  variable: "--font-inter-tight",  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+
+const mulish = Mulish({
+  variable: "--font-mulish",
+  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -27,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${interTight.variable} antialiased`}>
+        <body className={`${mulish.variable} antialiased`}>
           <Tag />
           {children}
           <script
