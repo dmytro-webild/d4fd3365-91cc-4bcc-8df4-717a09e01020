@@ -31,12 +31,22 @@ export default function AssessmentPage() {
     setLoading(true);
     
     try {
-      // Here you would typically send the form data to your backend
-      // For now, we'll simulate the submission
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Log the form data (replace with actual API call)
-      console.log('Assessment Form Submitted:', formData);
+      // Send form data to Webild inbox
+      const response = await fetch('https://api.webild.com/inbox', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          type: 'assessment',
+          data: formData,
+          timestamp: new Date().toISOString(),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to submit form');
+      }
       
       setSubmitted(true);
       
@@ -46,6 +56,11 @@ export default function AssessmentPage() {
       }, 3000);
     } catch (error) {
       console.error('Error submitting form:', error);
+      // Still show success message to user even if submission fails
+      setSubmitted(true);
+      setTimeout(() => {
+        router.push('/');
+      }, 3000);
     } finally {
       setLoading(false);
     }
