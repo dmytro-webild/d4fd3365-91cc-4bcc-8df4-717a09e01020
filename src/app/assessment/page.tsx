@@ -68,9 +68,7 @@ export default function AssessmentPage() {
         <NavbarStyleCentered
           brandName="Land Care 4 U"
           navItems={[
-            { name: "Our Work", id: "showcase" },
-            { name: "About", id: "about" },
-            { name: "Reviews", id: "testimonials" }
+            { name: "Our Work", id: "showcase", href: "https://www.instagram.com/lawncare4ulandscaping" }
           ]}
           button={{ text: "Back to Home", href: "/" }}
         />
