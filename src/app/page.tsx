@@ -43,7 +43,7 @@ export default function LandingPage() {
           logoText="Land Care 4 U & Landscaping"
           description="Transform Your Yard Into a Beautiful, Stress-Free Outdoor Space. Reliable. Professional. Affordable landscaping trusted by homeowners who want it done right the first time."
           buttons={[
-            { text: "Get a Free Quote", href: "#contact" },
+            { text: "Get Your Free Yard Assessment", href: "#contact" },
             { text: "View Our Work", href: "#showcase" }
           ]}
           slides={[
