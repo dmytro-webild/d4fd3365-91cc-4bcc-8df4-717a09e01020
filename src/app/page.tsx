@@ -3,13 +3,12 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
-import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
-import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
+import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import { Sparkles, Leaf, ImageIcon, Star, Heart, CheckCircle, Instagram, Phone, Users } from 'lucide-react';
+import { Sparkles, Star, Heart, CheckCircle, Instagram, Phone, Users, ImageIcon } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -29,7 +28,6 @@ export default function LandingPage() {
         <NavbarStyleCentered
           brandName="Land Care 4 U"
           navItems={[
-            { name: "Services", id: "services" },
             { name: "Our Work", id: "showcase" },
             { name: "About", id: "about" },
             { name: "Reviews", id: "testimonials" }
@@ -54,80 +52,6 @@ export default function LandingPage() {
           autoplayDelay={4000}
           showDimOverlay={false}
           ariaLabel="Hero section showcasing landscaping transformations"
-        />
-      </div>
-
-      <div id="why-choose-us" data-section="why-choose-us">
-        <FeatureCardOne
-          tag="Why Choose Us"
-          tagIcon={Sparkles}
-          tagAnimation="slide-up"
-          title="Landscaping Done With Care, Precision, and Pride"
-          description="We transform outdoor spaces with expertise, honesty, and genuine care. Every project reflects our commitment to excellence and customer satisfaction."
-          features={[
-            {
-              title: "Complete Transformations",              description: "From dirt and weeds to lush, healthy lawns. We handle projects of any size with professionalism and attention to detail.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=1",              imageAlt: "Beautiful professional garden landscape design"
-            },
-            {
-              title: "Fast & Reliable Service",              description: "Next-day or same-week availability. We respect your time and deliver results when we promise them.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-strong-man-gloves-cutting-leaves-his-garden-farmer-spending-summer-morning-working-garden-near-countryside-house_176420-19902.jpg?id=9696898",              imageAlt: "Professional landscaper maintaining green lawn"
-            },
-            {
-              title: "Honest & Transparent",              description: "We walk you through everything before we start. No surprises, no hidden costs—just straightforward, quality work.",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg?_wi=1",              imageAlt: "Professional irrigation system installation"
-            },
-            {
-              title: "Above & Beyond Care",              description: "We don't just finish the job—we make sure it lasts. Your satisfaction is our priority.",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=1",              imageAlt: "Professional hardscape and patio installation"
-            },
-            {
-              title: "Affordable, Fair Pricing",              description: "Premium results without overpriced quotes. We believe great landscaping should be accessible.",              imageSrc: "http://img.b2bpic.net/premium-photo/price-symbol-price-concept-price-wording-increasing-wooden-block-coins-stacking_184421-3960.jpg?id=388981837",              imageAlt: "Professional landscaping service"
-            },
-            {
-              title: "Versatile Services",              description: "From lawn care to gutters, roses, and hardscaping. Your trusted partner for all outdoor needs.",              imageSrc: "http://img.b2bpic.net/free-vector/landscape-gardens-design-infographics-report_1284-5947.jpg?_wi=2",              imageAlt: "Comprehensive landscaping services"
-            }
-          ]}
-          gridVariant="three-columns-all-equal-width"
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
-          buttons={[{ text: "Request Your Custom Plan", href: "#contact" }]}
-          buttonAnimation="slide-up"
-          ariaLabel="Why choose us feature section"
-        />
-      </div>
-
-      <div id="services" data-section="services">
-        <ProductCardThree
-          title="Everything Your Yard Needs — Done Right"
-          description="Complete landscaping solutions tailored to your property and lifestyle. From routine maintenance to complete transformations."
-          tag="Our Services"
-          tagIcon={Leaf}
-          tagAnimation="slide-up"
-          gridVariant="three-columns-all-equal-width"
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
-          products={[
-            {
-              id: "lawn-care",              name: "Lawn & Yard Services",              price: "Weekly or Bi-Weekly",              imageSrc: "http://img.b2bpic.net/free-photo/male-hands-cutting-bushes-with-big-scissors_651396-1549.jpg?id=26767874",              imageAlt: "Professional lawn maintenance service"
-            },
-            {
-              id: "irrigation",              name: "Irrigation & Lawn Health",              price: "Custom Quotes",              imageSrc: "http://img.b2bpic.net/free-photo/view-water-tank-storage_23-2151748218.jpg?_wi=2",              imageAlt: "Professional irrigation system installation"
-            },
-            {
-              id: "landscaping",              name: "Landscaping & Design",              price: "Project-Based",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-empty-park-with-blooming-green-trees-walls_181624-19632.jpg?_wi=2",              imageAlt: "Professional hardscape and garden design"
-            },
-            {
-              id: "specialty",              name: "Specialty Services",              price: "On Request",              imageSrc: "http://img.b2bpic.net/free-photo/worker-is-cutting-grass-with-hose_7502-9835.jpg?id=66860580",              imageAlt: "Specialty landscaping services"
-            },
-            {
-              id: "maintenance",              name: "Ongoing Maintenance",              price: "Seasonal Plans",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants_1150-26606.jpg?id=10401277",              imageAlt: "Ongoing yard maintenance service"
-            },
-            {
-              id: "consultation",              name: "Consultation & Planning",              price: "Free Assessment",              imageSrc: "http://img.b2bpic.net/free-photo/quality-control-inspector-worker-talking-while-going-through-list-plants-greenhouse_637285-1670.jpg?id=25624237",              imageAlt: "Free landscaping consultation and planning"
-            }
-          ]}
-          buttons={[{ text: "Request Your Custom Plan", href: "#contact" }]}
-          buttonAnimation="slide-up"
-          ariaLabel="Services and products section"
         />
       </div>
 
