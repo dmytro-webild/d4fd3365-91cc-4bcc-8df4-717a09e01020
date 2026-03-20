@@ -48,8 +48,7 @@ export default function LandingPage() {
           logoText="Land Care 4 U & Landscaping"
           description="Transform Your Yard Into a Beautiful, Stress-Free Outdoor Space. Reliable. Professional. Affordable landscaping trusted by homeowners who want it done right the first time."
           buttons={[
-            { text: "Get Your Free Yard Assessment", onClick: handleGetAssessment },
-            { text: "View Our Work", href: "#showcase" }
+            { text: "Get Your Free Yard Assessment", onClick: handleGetAssessment }
           ]}
           slides={[
             { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-modern-house-cement-view-from-garden_1127-3209.jpg?id=1242915", imageAlt: "Yard transformation from overgrown to lush green landscape" },
