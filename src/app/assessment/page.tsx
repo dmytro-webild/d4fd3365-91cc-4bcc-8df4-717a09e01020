@@ -68,7 +68,6 @@ export default function AssessmentPage() {
         <NavbarStyleCentered
           brandName="Land Care 4 U"
           navItems={[
-            { name: "Home", id: "home" },
             { name: "Our Work", id: "showcase" },
             { name: "About", id: "about" },
             { name: "Reviews", id: "testimonials" }
