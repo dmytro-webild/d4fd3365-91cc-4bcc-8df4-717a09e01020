@@ -58,6 +58,7 @@ export default function LandingPage() {
           autoplayDelay={4000}
           showDimOverlay={false}
           ariaLabel="Hero section showcasing landscaping transformations"
+          buttonClassName="w-full py-6 px-8 text-2xl md:text-3xl font-bold"
         />
       </div>
 
