@@ -176,8 +176,7 @@ export default function LandingPage() {
           logoText="Land Care 4 U & Landscaping"
           copyrightText="© 2025 Land Care 4 U & Landscaping. All rights reserved."
           socialLinks={[
-            { icon: Instagram, href: "https://www.instagram.com/lawncare4ulandscaping", ariaLabel: "Instagram" },
-            { icon: Phone, href: "tel:+19515484002", ariaLabel: "Call us" }
+            { icon: Instagram, href: "https://www.instagram.com/lawncare4ulandscaping", ariaLabel: "Follow us on Instagram @lawncare4ulandscaping" }
           ]}
           ariaLabel="Site footer"
         />
