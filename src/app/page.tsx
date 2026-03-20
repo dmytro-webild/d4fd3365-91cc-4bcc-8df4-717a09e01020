@@ -35,7 +35,9 @@ export default function LandingPage() {
         <NavbarStyleCentered
           brandName="Land Care 4 U"
           navItems={[
-            { name: "Our Work", id: "showcase" }
+            { name: "Our Work", id: "showcase" },
+            { name: "About", id: "about" },
+            { name: "Reviews", id: "testimonials" }
           ]}
           button={{ text: "Get Free Quote", onClick: handleGetAssessment }}
         />
@@ -119,6 +121,23 @@ export default function LandingPage() {
             }
           ]}
           ariaLabel="Testimonials section"
+        />
+      </div>
+
+      <div id="about" data-section="about">
+        <TestimonialAboutCard
+          tag="Our Story"
+          tagIcon={Heart}
+          tagAnimation="slide-up"
+          title="Meet the Team Behind the Work"
+          description="Led by Juan and his dedicated team, Land Care 4 U & Landscaping is built on hard work, honesty, and real care for every home we touch."
+          subdescription="We don't just show up—we listen, explain, and deliver results that last. Every project is treated with the same pride and attention to detail, regardless of size."
+          icon={Users}
+          imageSrc="http://img.b2bpic.net/premium-photo/landscaper-cut-natural-grass-turfs-size_1426-4787.jpg?id=49630866"
+          imageAlt="Land Care 4 U team"
+          mediaAnimation="slide-up"
+          useInvertedBackground={false}
+          ariaLabel="About our team section"
         />
       </div>
 
