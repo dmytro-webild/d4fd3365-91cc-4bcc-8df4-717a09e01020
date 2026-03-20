@@ -9,7 +9,7 @@ import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import { Sparkles, Leaf, ImageIcon, Star, Heart, CheckCircle, Facebook, Instagram, Phone, Users } from 'lucide-react';
+import { Sparkles, Leaf, ImageIcon, Star, Heart, CheckCircle, Instagram, Phone, Users } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -245,9 +245,8 @@ export default function LandingPage() {
           logoText="Land Care 4 U & Landscaping"
           copyrightText="© 2025 Land Care 4 U & Landscaping. All rights reserved."
           socialLinks={[
-            { icon: Facebook, href: "https://facebook.com", ariaLabel: "Facebook" },
-            { icon: Instagram, href: "https://instagram.com", ariaLabel: "Instagram" },
-            { icon: Phone, href: "tel:+1234567890", ariaLabel: "Call us" }
+            { icon: Instagram, href: "https://instagram.com/lawncare4ulandscaping", ariaLabel: "Instagram" },
+            { icon: Phone, href: "tel:+19515484002", ariaLabel: "Call us" }
           ]}
           ariaLabel="Site footer"
         />
