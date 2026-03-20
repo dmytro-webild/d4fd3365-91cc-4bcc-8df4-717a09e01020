@@ -210,13 +210,15 @@ export default function AssessmentPage() {
                   />
                 </div>
 
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full px-6 py-3 bg-primary-cta text-primary-cta-text font-semibold rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {loading ? 'Submitting...' : 'Request Free Assessment'}
-                </button>
+                <div className="flex justify-center">
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="px-12 py-6 bg-primary-cta text-primary-cta-text font-semibold rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed text-xl md:text-2xl"
+                  >
+                    {loading ? 'Submitting...' : 'Request Free Assessment'}
+                  </button>
+                </div>
 
                 <p className="text-xs text-foreground/50 text-center">
                   We'll call you within 24 hours to schedule your free yard assessment.
