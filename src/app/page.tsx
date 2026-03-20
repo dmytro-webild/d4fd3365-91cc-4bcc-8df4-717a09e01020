@@ -35,7 +35,7 @@ export default function LandingPage() {
         <NavbarStyleCentered
           brandName="Land Care 4 U"
           navItems={[
-            { name: "Our Work", id: "showcase", href: "https://www.instagram.com/lawncare4ulandscaping" }
+            { name: "Our Work", id: "showcase" }
           ]}
           button={{ text: "Get Free Quote", onClick: handleGetAssessment }}
         />
