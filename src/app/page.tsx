@@ -9,8 +9,15 @@ import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCa
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import { Sparkles, Star, Heart, CheckCircle, Instagram, Phone, Users, ImageIcon } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 export default function LandingPage() {
+  const router = useRouter();
+
+  const handleGetAssessment = () => {
+    router.push('/assessment');
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="hover-bubble"
@@ -32,7 +39,7 @@ export default function LandingPage() {
             { name: "About", id: "about" },
             { name: "Reviews", id: "testimonials" }
           ]}
-          button={{ text: "Get Free Quote", href: "#contact" }}
+          button={{ text: "Get Free Quote", onClick: handleGetAssessment }}
         />
       </div>
 
@@ -41,7 +48,7 @@ export default function LandingPage() {
           logoText="Land Care 4 U & Landscaping"
           description="Transform Your Yard Into a Beautiful, Stress-Free Outdoor Space. Reliable. Professional. Affordable landscaping trusted by homeowners who want it done right the first time."
           buttons={[
-            { text: "Get Your Free Yard Assessment", href: "#contact" },
+            { text: "Get Your Free Yard Assessment", onClick: handleGetAssessment },
             { text: "View Our Work", href: "#showcase" }
           ]}
           slides={[
@@ -169,7 +176,7 @@ export default function LandingPage() {
           logoText="Land Care 4 U & Landscaping"
           copyrightText="© 2025 Land Care 4 U & Landscaping. All rights reserved."
           socialLinks={[
-            { icon: Instagram, href: "https://instagram.com/lawncare4ulandscaping", ariaLabel: "Instagram" },
+            { icon: Instagram, href: "https://www.instagram.com/lawncare4ulandscaping", ariaLabel: "Instagram" },
             { icon: Phone, href: "tel:+19515484002", ariaLabel: "Call us" }
           ]}
           ariaLabel="Site footer"
